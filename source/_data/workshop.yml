@@ -68,7 +68,7 @@ workshops:
     addressees_title: "A chi è rivolto"
     addressees_description: "Il workshop è rivolto a chi sa leggere il Lorem ipsum dolor sic amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     requirements_title: "Requisiti di partecipazione"
-    requirements_description: "Sapere accendere un computer è un requisito fondamentale, ma diciamo che anche sapere un minimo di Ruby aiuta."
+    requirements_description: "Sapere accendere un computer è un requisito fondamentale, ma diciamo che anche sapere un minimo di React aiuta."
     useful_info_title: "Informazioni utili"
     useful_info_description: "Anche *avere* un computer aiuta! E se possibile dovreste avere installato rbenv, Bundler, node.js e yarn. Inoltre se avete un buon editor vi conviene: non dico VSCode, ma probabilmente Kate non è proprio l'ideale."
     # CTA
@@ -92,7 +92,7 @@ workshops:
     whatandwhen_additional_info: "Registrazione, caffè e pranzo inclusi"
     date: 2020-09-15T09:30
     end_date: 2020-09-16T16:30
-    date_text: Sept 15-16th, 2021
+    date_text: Sept 15-16th, 2023
     language_title: "Lingua"
     language: "italian / italiano"
     language_ext: "Language: Italian / Lingua: italiano"

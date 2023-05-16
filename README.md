@@ -131,10 +131,10 @@ Tra i dati "interessanti" ci sono `title`, `description`, etc.; vengono usati pe
 ```
 # Site / OG
 type: website
-title: "ruby day 2020"
-description: "Ruby Day 2020, Verona, Italy"
+title: "React day 2020"
+description: "React Day 2020, Verona, Italy"
 # separate keywords by comma, no spaces
-keywords: conference,software conference,ruby,ruby on rails
+keywords: conference,software conference,React,React on rails
 author: GrUSP
 language: en
 timezone: 'Europe/Rome'
@@ -149,9 +149,9 @@ C'è anche la sezione dove inserire gli account social:
 
 ```
 twitter:
-  twitter_id: rubydayIT
+  twitter_id: reactjsdayIT
 fb:
-  fb_id: RubyDayIT
+  fb_id: reactjsdayIT
 ```
 
 **NB** c'è una issue di Hexo per cui
@@ -404,7 +404,7 @@ Dopo la sezione "Additional config" dove come detto si seleziona il tema, segue 
 ```
   # menu and general params
   menu_buy_tickets_label: "Buy tickets"
-  buy_tickets_url: "https://rubyday-2020.eventbrite.com/"
+  buy_tickets_url: "https://reactjsday-2020.eventbrite.com/"
 ```
 
 Label dei pulsanti *Buy tickets*, tranne quello presente nella *hero section* della home page (vedi sotto); URL del sito per l'acquisto dei biglietti
@@ -434,7 +434,7 @@ La mail di contatto, usata un po' ovunque (footer, pagina COC, etc.)
 ```
   # these are for the hero section
   title_pre: "Welcome to"
-  title: "RubyDay"
+  title: "reactjsday"
   city: "Verona"
   date: 2020-09-16T09:00
   countdown_visible: true
@@ -524,7 +524,7 @@ Qui si definisce a quali liste iscrivere il mittente:
     design: false
     devops: false
     frontend: false
-    ruby: true
+    React: true
     entrepreneurship: false
     local_events: false
     everything: false
@@ -572,8 +572,8 @@ Gli altri dati vengono presi dal file `talks_speakers.yml`; vedere più avanti.
   topics_title: "Topics and themes"
   topics_description: "This is what we shall talk about..."
   topics:
-    - "Ruby"
-    - "Ruby on Rails"
+    - "React"
+    - "React on Rails"
   topics_payoff: "...and much more!"
 ```
 
@@ -698,9 +698,9 @@ Nel footer, alcuni dati (ad es., la data)  vengono ripresi da ciò che abbiamo d
 ```
   # this is for the Social links block
   social_follow: "Follow us on"
-  social_fb_url: "https://www.facebook.com/RubyDayIT/"
+  social_fb_url: "https://www.facebook.com/reactjsdayIT/"
   social_linkedin_url: "https://www.linkedin.com/company/grusp/"
-  social_twitter_url: "https://twitter.com/rubydayIT"
+  social_twitter_url: "https://twitter.com/reactjsdayIT"
   social_vimeo_url: "https://vimeo.com/grusp"
   social_youtube_url: "https://www.youtube.com/channel/UCdWnwC8nz_CCFQrmLBrLCVw"
 ```
@@ -727,7 +727,7 @@ Questo viene usato per creare i link ai siti delle passate edizioni:
 L'URL base dei siti:
 
 ```
-  base_url: "rubyday.it/"
+  base_url: "reactjsday.it/"
 ```
 
 ...dopodiché i link vengono creati dinamicamente, ad es. `https://2011.[base_url]`
@@ -767,7 +767,7 @@ L'URL base dei siti:
     siteId: 1063123
     lang: en
     enableRemoteConsent: true
-    localConsentDomain: phpday.it
+    localConsentDomain: reactjsday.it
     rebuildIframe: true
   privacy_policy_url_common: "https://www.iubenda.com/privacy-policy/"
   footer_coc_link_label: "code of conduct"
@@ -792,8 +792,8 @@ Il blocco "intro" contiene solo del testo libero...
 ```
 intro:
   main_title: "Welcome"
-  content_1: "RubyDay 2020 is the eighth edition of the Italian Ruby Conference, organised by GrUSP, organisers of events such as PHPDay and JSDay. Tehe event has an international audience and all session will be held in English."
-  content_2: "The event's goal is to allow all Rubyists to meet and share experiences while having fun and networking in an enjoyable context."
+  content_1: "reactjsday 2020 is the eighth edition of the Italian React Conference, organised by GrUSP, organisers of events such as reactjsday and JSDay. Tehe event has an international audience and all session will be held in English."
+  content_2: "The event's goal is to allow all Reactists to meet and share experiences while having fun and networking in an enjoyable context."
 ```
 
 ...e i due parziali "past editions" e "social" che abbiamo già visto in `defaults.yml`
@@ -962,7 +962,7 @@ La `long_version` è differente: al posto di un unico `content_2` ci sono divers
 
 ```
   content_2_beginning: "You are invited to apply for "
-  content_2_link_label: "a single conference ticket for rubyday"
+  content_2_link_label: "a single conference ticket for reactjsday"
   content_2_link_url: "https://forms.gle/K7b38LbqVuAJ61MK9"
   content_2_ending: "  . We will notify all applicants regarding the outcome of their application. We don’t cover travel/accommodation expenses."
 ```
@@ -1657,8 +1657,8 @@ Intro:
 
 ```
 intro:
-  slogan_1: "Is your activity connected with Ruby or the Web?"
-  slogan_2: "Do you want to participate in the making of Ruby Day?"
+  slogan_1: "Is your activity connected with React or the Web?"
+  slogan_2: "Do you want to participate in the making of React Day?"
   content_1: "Great idea! You will contribute to the success of an event that is unique in Italy and will receive a remarkable visibility."
   content_2: "A short description of the venue is necessary before detailing the six levels of sponsorship: the conference will be held in different rooms, all facing an atrium with a reception where various stands will be available for informations. GrUSP will be present with a stand for informations and registrations."
   content_3: "By stand we mean a space at your disposal with 1 or 2 tables, a couple of chairs, network connectivity and power supply."
@@ -1671,7 +1671,7 @@ Fascia colorata:
 ```
 block_2:
   title: "Sponsorship options"
-  slogan: "You can sponsor RubyDay in several ways:"
+  slogan: "You can sponsor reactjsday in several ways:"
   subtitle_1: "Special events"
   content_1: "During the conference there are various moments for social aggregation between participants: coffee breaks, lunch, social night, speaker's dinners and pre-dinner aperitifs. Please get in touch with us to arrange the options that best suits your needs, or to share a brilliant sponsoring idea."
   subtitle_2: "Full packages"
