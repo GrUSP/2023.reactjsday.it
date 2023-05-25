@@ -14,35 +14,48 @@ more:
     <br><br  />"
   content_2:
 past_edition:
-  title: ""
-  video_url: ""
-  video_caption: ""
+  title: "Browse past editions of jsday"
+  video_url: "https://vimeo.com/showcase/9922451/embed"
+  video_caption: "Watch the videos from the past editions"
 team:
   title: "Our team"
   intro: ""
   members:
     member_1:
-      name: "Giulia Tosato"
-      role: "Event Manager"
-      pic_filename: "giulia.jpg"
-    member_3:
-      name: "Giovanna Ferrari"
-      role: "Sponsors Manager"
-      pic_filename: "giovanna.jpg"
-    member_4:
       name: "Matteo Beccati"
       role: "GrUSP Board Member"
       pic_filename: "matteo.jpg"
-    member_5:
+    member_2:
+      name: "Alessandro 'Cirpo' Cinelli"
+      role: "Technical Committee"
+      pic_filename: "cirpo.jpg"
+    member_3:
       name: "Cesare D'Amico"
       role: "GrUSP Board Member"
       pic_filename: "cesare.jpg"
+    member_4:
+      name: "Giovanna Ferrari"
+      role: "Sponsors Manager"
+      pic_filename: "giovanna.jpg"
+    member_5:
+      name: "Giorgio Fochesato"
+      role: "community manager"
+      pic_filename: "giorgio-fochesato.png"
     member_6:
-      name: "Daniel Londero"
-      role: "GrUSP Board Member"
-      pic_filename: "daniel.jpg"
-    member_7:
       name: "Francesco Fullone"
       role: "Troublemaker"
       pic_filename: "fullo.jpg"
+    member_7:
+      name: "Lara Lombardi"
+      role: "Marketing manager"
+      pic_filename: "lara.png"
+    member_8:
+      name: "Daniel Londero"
+      role: "GrUSP Board Member"
+      pic_filename: "daniel.jpg"
+    member_10:
+      name: "Giulia Tosato"
+      role: "Event Manager"
+      pic_filename: "giulia.jpg"
+
 

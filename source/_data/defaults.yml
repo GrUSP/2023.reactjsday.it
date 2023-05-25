@@ -57,7 +57,7 @@ conference:
   # "general information" ("what is it?") component
   geninfo_visible: true
   geninfo_title: "What is it?"
-  geninfo_description: "reactjsday 2023 is the 9th edition of the Italian React conference, organized by GrUSP, organizers of events like <a href='https://www.reactjsday.it/'>reactjsday</a> and <a href='https://www.jsday.it/'>jsday</a>.
+  geninfo_description: "reactjsday 2023 is the 9th edition of the Italian React conference, organized by GrUSP, organizers of events like <a href='https://www.jsday.it/'>jsday</a> and <a href='https://www.phpday.it/'>phpday</a>.
   <br> <br /> The event is international and all sessions will be in English.
   <br> The event’s goal is to allow all React developers to meet and share experience while having fun and networking in an enjoyable context.
   <br> <br /><b>reactjsday 2023 is happening in Verona and online on Friday, October 27th 2023.</b><br>."
@@ -74,7 +74,7 @@ conference:
     javascript: true
     design: false
     devops: false
-    frontend: false
+    frontend: true
     ruby: false
     entrepreneurship: false
     local_events: false
@@ -100,7 +100,7 @@ conference:
   topics_title: "Topics and themes"
   topics_description: "We'll talk about..."
   topics: ""
-    
+
   topics_payoff: "...and much more!"
   # "workshop" component. set the first parameter to true to make it appear in home page, false means hidden
   workshop_visible: false
@@ -109,11 +109,11 @@ conference:
   workshops_readmore_label: "Read more"
   workshops_register_label: "Register"
   # Media section in home page. set the first parameter to true to make it appear in home page, false means hidden
-  media_visible: false
-  media_pic_1: ""
-  media_pic_2: ""
-  media_pic_3: ""
-  media_pic_4: ""
+  media_visible: true
+  media_pic_1: "reactjsday22-4.png"
+  media_pic_2: "reactjsday22-3.jpeg"
+  media_pic_3: "reactjsday22-2.jpeg"
+  media_pic_4: "reactjsday22-1.jpeg"
   #   playlist: if true, the iframe will be created. if false, it will not
   media_video_playlist: true
   # if `media_video_is_youtube` is `true`, the relevant playlist will be embedded via "media_video_playlist". If it is `false`, the relevant Vimeo channel will be embedded via "media_vimeo_channel"
@@ -122,21 +122,21 @@ conference:
   vimeo_base_url: "https://vimeo.com/album/"
   vimeo_url_suffix: "/embed"
   #   (embed YouTube playlist: prendere l'ID della lista dall'URL, la parte dopo '&list=', e metterla qui sotto)
-  youtube_playlist_id: "PLWK9j6ps_unmgzGOw3cbjS8ID-b-cF1d9"
+  youtube_playlist_id: "PLWK9j6ps_unmZto2d64evsudRP7PcGkVo"
   #   (embed Vimeo showcase: prendere l'ID dello showcase e metterla qui sotto)
   vimeo_showcase_id: "6048109"
   # Location section in home page. set the first parameter to true to make it appear in home page, false means hidden
-  location_visible: false
+  location_visible: true
   location_name: "Hotel San Marco"
-  location_address: "Via Longhena 42, 37138 Verona (VE) Italy"
+  location_address: "Via Longhena 42, 37138 Verona (VR) Italy"
   location_maps_url: "https://www.google.com/maps/place/Hotel+San+Marco+Fitness+Pool+%26+SPA/@45.4399961,10.9697441,17z/data=!3m1!4b1!4m8!3m7!1s0x4781e1e30a8be6af:0x8091b108e1d130c6!5m2!4m1!1i2!8m2!3d45.4399961!4d10.9719328"
   location_maps_label: "Get directions"
   location_readmore_label: "Read more"
   # image credits (l'esempio è per la hero del CSS Day!)
   venue_img_credits: ""
   # Sponsors section in home page. set the first parameter to true to make it appear in home page, false means hidden
-  sponsors_visible: false
-  sponsor_title_home: "Sponsors"
+  sponsors_visible: true
+  sponsor_title_home: "Thanks for supporting reactjsday"
   # this is for the Community partners section in home page
   community_partners: true
   community_partners_title: "Community partners"
@@ -158,6 +158,8 @@ conference:
   past_editions:
     2015: "2015"
     2016: "2016"
+    2017: "2017"
+    2018: "2018"
     2019: "2019"
     2020: "2020"
     2021: "2021"
