@@ -25,18 +25,22 @@ silver:
     logo_filename: "axelerant.svg"
     site_url: "https://www.axelerant.it"
   sponsor2:
+    name: "CentralReach"
+    logo_filename: "centralreach.svg"
+    site_url: "https://centralreach.com/"
+  sponsor3:
     name: "Daruma"
     logo_filename: "daruma.svg"
     site_url: "http://www.darumahq.com/"
-  sponsor3:
+  sponsor4:
     name: "facile.it"
     logo_filename: "facile.svg"
     site_url: "https://www.facile.it/"
-  sponsor4:
+  sponsor5:
     name: "Immobiliare"
     logo_filename: "immobiliare.svg"
     site_url: "https://labs.immobiliare.it/"
-  sponsor5:
+  sponsor6:
     name: "Madisoft"
     logo_filename: "madisoft.svg"
     site_url: "https://labs.madisoft.it"
