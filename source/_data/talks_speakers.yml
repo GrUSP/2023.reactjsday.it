@@ -29,9 +29,22 @@ speaker_2: &AashimaAhuja
   is_mc: false
 
 
+speaker_3: &TejasKumar
+  speaker_in_speaker_lists: true
+  speaker_name: Tejas Kumar
+  speaker_pic_filename: TejasKumar.png
+  speaker_role: "Chief Developer Advocate"
+  speaker_bio: "Tejas Kumar is an international keynote speaker with an engineering background spanning 22 years, from design to frontend to backend to devops.
+  <br /> Today, Tejas shares talks at large with developer communities worldwide, equipping them to do their best work. "
+  speaker_github_url: "https://github.com/tejasq"
+  speaker_twitter_url: "https://twitter.com/tejaskumar_"
+  is_mc: false
+
+
 speakers:
   speaker_1: *GonzaloBeviglia
   speaker_2: *AashimaAhuja
+  speaker_3: *TejasKumar
 
 tracks:
   track_1: &track_1
@@ -107,3 +120,13 @@ This talk explains concurrency in detail which is not only a breaking change in 
         talk_video_url:
         speakers:
           speaker_2: *AashimaAhuja
+
+      ServerComponentsForTheRestOfUs:
+        item_type: "talk"
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Server Components for the Rest of Us"
+        talk_description: "This talk explores how Server Components work, and why we need new-generation tooling for it."
+        talk_video_url:
+        speakers:
+          speaker_3: *TejasKumar
