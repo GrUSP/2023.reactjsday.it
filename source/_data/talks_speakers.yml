@@ -4,18 +4,47 @@ schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
-speaker_1: &speaker
-  speaker_in_speaker_lists: false
-  speaker_name:
-  speaker_pic_filename: .jpg
-  speaker_role: ""
-  speaker_bio: ""
-  speaker_github_url: ""
-  speaker_twitter_url: ""
+speaker_1: &GonzaloBeviglia
+  speaker_in_speaker_lists: true
+  speaker_name: GonzaloB eviglia
+  speaker_pic_filename: GonzaloBeviglia.png
+  speaker_role: "Staff Software Engineer @ Box"
+  speaker_bio: "Leading high-impact technical initiatives, engineering huge-scale applications, and aiding in cross-team collaboration has given me first-hand experience across the whole software development lifecycle. 
+<br />I believe in radical candor and mentoring individuals to build high performance teams. <br />I bring proactivity, disruption, and agile leadership to the table. <br /> Driving continuous improvement at scale is my north star.
+I'm an all around player in love with great product companies."
+  speaker_github_url: "https://github.com/GonchuB"
+  speaker_twitter_url: "https://twitter.com/GonchuB"
   is_mc: false
 
+
+speaker_2: &AashimaAhuja
+  speaker_in_speaker_lists: true
+  speaker_name: Aashima Ahuja
+  speaker_pic_filename: AashimaAhuja.png
+  speaker_role: "Frontend Engineer @ Meta"
+  speaker_bio: "Frontend engineer @Meta and frontend content creator. Aashima is a web enthusiast. <br />She loves talking about the Web and exploring new technologies. 
+  <br />She believes knowledge grows with sharing , so she love to spread her knowledge about frontend."
+  speaker_github_url: "https://github.com/AashimaAhuja"
+  speaker_twitter_url: "https://twitter.com/aashimaahuja22"
+  is_mc: false
+
+
+speaker_3: &TejasKumar
+  speaker_in_speaker_lists: true
+  speaker_name: Tejas Kumar
+  speaker_pic_filename: TejasKumar.png
+  speaker_role: "Chief Developer Advocate"
+  speaker_bio: "Tejas Kumar is an international keynote speaker with an engineering background spanning 22 years, from design to frontend to backend to devops.
+  <br /> Today, Tejas shares talks at large with developer communities worldwide, equipping them to do their best work. "
+  speaker_github_url: "https://github.com/tejasq"
+  speaker_twitter_url: "https://twitter.com/tejaskumar_"
+  is_mc: false
+
+
 speakers:
-  speaker_1: *speaker
+  speaker_1: *GonzaloBeviglia
+  speaker_2: *AashimaAhuja
+  speaker_3: *TejasKumar
 
 tracks:
   track_1: &track_1
@@ -60,23 +89,44 @@ days:
         service_icon: "glass"
 
       # talk
-      keynote:
-        item_type: "keynote"
-        track: *track_1
-        start_datetime: 2022-05-19T09:30+02:00
-        end_datetime: 2022-05-19T10:25+02:00
-        talk_title: ""
-        talk_description: ""
-        talk_video_url:
-        speakers:
-          speaker_1: *speaker
-      titolotalk1:
+      # keynote:
+      #   item_type: "keynote"
+      #   track: *track_1
+      #   start_datetime: 2022-05-19T09:30+02:00
+      #   end_datetime: 2022-05-19T10:25+02:00
+      #   talk_title: ""
+      #   talk_description: ""
+      #   talk_video_url:
+      #   speakers:
+      #     speaker_1: *speaker
+      ReactObservability:
         item_type: "talk"
-        track: *track_1
-        start_datetime: 2022-05-19T10:25+02:00
-        end_datetime: 2022-05-19T11:05+02:00
-        talk_title: ""
-        talk_description: ""
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Observability for React applications"
+        talk_description: "Observability is essential for developing and maintaining reliable and performance React applications. <br /> By the end of this talk, you will have a practical guide on how to make your React applications more observable and resilient using OpenTelemetry."
         talk_video_url:
         speakers:
-          speaker_1: *speaker
+          speaker_1: *GonzaloBeviglia
+
+      PerformanceWinsInReact18:
+        item_type: "talk"
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Performance wins in React 18"
+        talk_description: "React 18 was launched last year in March. A lot of people are considering to migrate. This talks gives them overview of the new features as well as how to use those features properly to improve performance of your app.<br />
+
+This talk explains concurrency in detail which is not only a breaking change in this version but also going to be foundational in the coming versions of React. The talk includes live code demos to make the concepts more clearer."
+        talk_video_url:
+        speakers:
+          speaker_2: *AashimaAhuja
+
+      ServerComponentsForTheRestOfUs:
+        item_type: "talk"
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Server Components for the Rest of Us"
+        talk_description: "This talk explores how Server Components work, and why we need new-generation tooling for it."
+        talk_video_url:
+        speakers:
+          speaker_3: *TejasKumar
