@@ -6,7 +6,7 @@ schedule_under_construction_description: "We are still defining the schedule. Pl
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
 speaker_1: &GonzaloBeviglia
   speaker_in_speaker_lists: true
-  speaker_name: GonzaloB eviglia
+  speaker_name: Gonzalo Beviglia
   speaker_pic_filename: GonzaloBeviglia.png
   speaker_role: "Staff Software Engineer @ Box"
   speaker_bio: "Leading high-impact technical initiatives, engineering huge-scale applications, and aiding in cross-team collaboration has given me first-hand experience across the whole software development lifecycle. 
