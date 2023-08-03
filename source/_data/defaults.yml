@@ -50,7 +50,7 @@ conference:
   cfp_open: true
   cfp_readmore_label: "Read more"
   cfp_open_label: "Submissions accepted until"
-  cfp_open_title: "Call For Papers Now Open!"
+  cfp_open_title: "Call For Papers closing soon!"
   cfp_deadline: 2023-08-15T23:59+02:00
   cfp_register_label: "Apply now"
   cfp_register_aria_label: "Apply now to our Call for Papers"
@@ -94,7 +94,7 @@ conference:
   speakers_visible: true
   speakers_title: "speaker"
   mcs_title: "MC"
-  speaker_count_text:
+  speaker_count_text: "First speakers announced!"
   # "topics" component. set the first parameter to true to make it appear in home page, false means hidden
   topics_visible: false
   topics_title: "Topics and themes"

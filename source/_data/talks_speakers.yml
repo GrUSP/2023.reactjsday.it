@@ -1,5 +1,5 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: true
+generate_schedule_page: false
 schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
@@ -9,7 +9,7 @@ speaker_1: &GonzaloBeviglia
   speaker_name: Gonzalo Beviglia
   speaker_pic_filename: GonzaloBeviglia.png
   speaker_role: "Staff Software Engineer @ Box"
-  speaker_bio: "Leading high-impact technical initiatives, engineering huge-scale applications, and aiding in cross-team collaboration has given me first-hand experience across the whole software development lifecycle. 
+  speaker_bio: "Leading high-impact technical initiatives, engineering huge-scale applications, and aiding in cross-team collaboration has given me first-hand experience across the whole software development lifecycle.
 <br />I believe in radical candor and mentoring individuals to build high performance teams. <br />I bring proactivity, disruption, and agile leadership to the table. <br /> Driving continuous improvement at scale is my north star.
 I'm an all around player in love with great product companies."
   speaker_github_url: "https://github.com/GonchuB"
@@ -22,7 +22,7 @@ speaker_2: &AashimaAhuja
   speaker_name: Aashima Ahuja
   speaker_pic_filename: AashimaAhuja.png
   speaker_role: "Frontend Engineer @ Meta"
-  speaker_bio: "Frontend engineer @Meta and frontend content creator. Aashima is a web enthusiast. <br />She loves talking about the Web and exploring new technologies. 
+  speaker_bio: "Frontend engineer @Meta and frontend content creator. Aashima is a web enthusiast. <br />She loves talking about the Web and exploring new technologies.
   <br />She believes knowledge grows with sharing , so she love to spread her knowledge about frontend."
   speaker_github_url: "https://github.com/AashimaAhuja"
   speaker_twitter_url: "https://twitter.com/aashimaahuja22"
