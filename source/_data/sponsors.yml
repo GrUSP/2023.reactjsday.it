@@ -9,11 +9,11 @@ sponsors_block_title: "Thanks for supportin reactjsday"
 #     name: ""
 #     logo_filename: ""
 #     site_url: ""
-# platinum:
-#   sponsor1:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
+platinum:
+  sponsor1:
+    name: "eDreams Odigeo"
+    logo_filename: "edreams-odigeo.svg"
+    site_url: "https://www.edreamsodigeo.com/"
 gold:
   sponsor1:
     name: "workwave"
@@ -44,6 +44,10 @@ silver:
     name: "Madisoft"
     logo_filename: "madisoft.svg"
     site_url: "https://labs.madisoft.it"
+  sponsor7:
+    name: "Treatwell"
+    logo_filename: "treatwell.svg"
+    site_url: "https://www.treatwell.co.uk/"
 bronze:
   sponsor1:
     name: "Sticker Mule"
