@@ -22,7 +22,7 @@ gold:
 silver:
   sponsor1:
     name: "axelerant"
-    logo_filename: "axelerant.svg"
+    logo_filename: "axelerant.png"
     site_url: "https://www.axelerant.it"
   sponsor2:
     name: "CentralReach"
