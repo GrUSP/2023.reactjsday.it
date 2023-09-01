@@ -38,13 +38,25 @@ speaker_3: &TejasKumar
   <br /> Today, Tejas shares talks at large with developer communities worldwide, equipping them to do their best work. "
   speaker_github_url: "https://github.com/tejasq"
   speaker_twitter_url: "https://twitter.com/tejaskumar_"
-  is_mc: false
+  is_mc: true
 
+speaker_4: &FabioBiondi
+  speaker_in_speaker_lists: true
+  speaker_name: Fabio Biondi
+  speaker_pic_filename: FabioBiondi.png
+  speaker_role: "Google Expert & Microsoft MVP"
+  speaker_bio: "Fabio is a front-end instructor, speaker, OSS contributor and run several front-end communities. <br />
+  He is especially focused on JavaScript front-end applications and all related aspects, both visuals and architecturals. He often work on cutting-edge libraries and frameworks offering training, development, code review and consulting on Angular, React, Qwik, Next, Astro and several other front-end technologies."
+  speaker_github_url: "https://github.com/fabiobiondi"
+  speaker_twitter_url: "https://twitter.com/biondifabio"
+  speaker_linkeding_url: "https://www.linkedin.com/in/fabiobiondi/"
+  is_mc: false
 
 speakers:
   speaker_1: *GonzaloBeviglia
   speaker_2: *AashimaAhuja
   speaker_3: *TejasKumar
+  speaker_4: *FabioBiondi
 
 tracks:
   track_1: &track_1
@@ -130,3 +142,17 @@ This talk explains concurrency in detail which is not only a breaking change in 
         talk_video_url:
         speakers:
           speaker_3: *TejasKumar
+      
+      Quiz:
+        item_type: "talk"
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "How Well Do You Know React? let's have fun together!"
+        talk_description: "Curious about your React knowledge? 
+Ready to take on a friendly challenge? <br />
+ In this lively and engaging session, we invite you to participate in an interactive quiz centered around the Angular ecosystem. <br />
+Whether you're new to Angular or a seasoned pro, this quiz is designed to spark curiosity and deepen understanding, all in a collaborative and fun environment. <br />
+Engage with the speaker, answer questions, and learn more about the subject through technical insights and explanations. "
+        talk_video_url:
+        speakers:
+          speaker_4: *FabioBiondi
