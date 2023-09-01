@@ -98,6 +98,18 @@ speaker_8: &RubyJaneCabagnot
   speaker_github_url: "https://github.com/RubyJane88"
   is_mc: false
 
+speaker_9: &PaoloInsogna
+  speaker_in_speaker_lists: true
+  speaker_name: Paolo Insogna
+  speaker_pic_filename: PaoloInsogna.png
+  speaker_role: "Node.js core and Staff DX Engineer @ NearForm"
+  speaker_bio: "Node.js Core Member, Staff Developer Experience Engineer at NearForm, Co-founder and Principal Architect at OramaSearch, Polyglot Developer. <br />
+  RPG and LARP addicted and nerd on lot more. Surrounded by lovely chubby cats."
+  speaker_linkedin_url: "https://www.linkedin.com/in/pinsogna/"
+  speaker_twitter_url: "https://twitter.com/p_insogna"
+  speaker_github_url: "https://github.com/shogunpanda"
+  is_mc: false
+
 speakers:
   speaker_1: *GonzaloBeviglia
   speaker_2: *AashimaAhuja
@@ -107,6 +119,7 @@ speakers:
   speaker_6: *SilviaFlorio
   speaker_7: *MattiaPispisa
   speaker_8: *RubyJaneCabagnot
+  speaker_9: *PaoloInsogna
 
 tracks:
   track_1: &track_1
@@ -249,4 +262,19 @@ In this talk, Ruby Jane Cabagnot will talk about Qwik and reusability. Then talk
         talk_video_url:
         speakers:
           speaker_8: *RubyJaneCabagnot
+
+      DoNotBreakGraphQL,ExtendIt:
+        item_type: "talk"
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Do not break GraphQL, extend it!"
+        talk_description: "GraphQL is powerful technology to retrieve and send complex structures from remote locations with a simple and effective syntax. One of its perks is avoid under-fetching and over-fetching as the client specifically requests the fields it’s interested in. 
+<br />
+But what happens if we need to enrich or customize the data set and we can’t modify the upstream GraphQL server? Shall we break the spec?
+<br />
+In this talk I will show you how to use the resources the GraphQL specification already gives us to solve this issue without having to break the rules."
+        talk_video_url:
+        speakers:
+          speaker_9: *PaoloInsogna
+
 
