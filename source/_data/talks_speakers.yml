@@ -49,7 +49,7 @@ speaker_4: &FabioBiondi
   He is especially focused on JavaScript front-end applications and all related aspects, both visuals and architecturals. He often work on cutting-edge libraries and frameworks offering training, development, code review and consulting on Angular, React, Qwik, Next, Astro and several other front-end technologies."
   speaker_github_url: "https://github.com/fabiobiondi"
   speaker_twitter_url: "https://twitter.com/biondifabio"
-  speaker_linkeding_url: "https://www.linkedin.com/in/fabiobiondi/"
+  speaker_linkedin_url: "https://www.linkedin.com/in/fabiobiondi/"
   is_mc: false
 
 speaker_5: &MatteoFrana
@@ -61,7 +61,29 @@ speaker_5: &MatteoFrana
   I love React. I am building React Bricks to make content editing easy and fun."
   speaker_github_url: "https://github.com/ReactBricks"
   speaker_twitter_url: "https://twitter.com/matfrana"
-  speaker_linkeding_url: "https://www.linkedin.com/in/matteofrana/"
+  speaker_linkedin_url: "https://www.linkedin.com/in/matteofrana/"
+  is_mc: false
+
+speaker_6: &SilviaFlorio
+  speaker_in_speaker_lists: true
+  speaker_name: Silvia Florio
+  speaker_pic_filename: SilviaFlorio.png
+  speaker_role: "Interaction Designer @ MV Labs"
+  speaker_bio: "Passionate interaction designer merging psychology with tech. <br />
+  With a solid background in Front-end development and prior experiences as a front-end developer, I currently live at the intersection of design, tech, and the joyous chaos of motherhood! <br />
+  Mum of two, anime lover finding inspiration and creativity in parallel universes - and that's just in case you were wondering where the talk title came from."
+
+  speaker_linkedin_url: "https://www.linkedin.com/in/silviajoy/"
+  is_mc: false
+
+speaker_7: &MattiaPispisa
+  speaker_in_speaker_lists: true
+  speaker_name: Mattia Pispisa
+  speaker_pic_filename: MattiaPispisa.png
+  speaker_role: "Lead Front-End Engineer @ MV Labs"
+  speaker_bio: "Crafting enterprise front-end architectures , mainly focusing on React. CS graduate, eager learner, constantly diving into new tech realms and savoring books' wisdom. <br />
+  Balancing code and adventure, with a love for staying active and in shape. My life evolves around code, learning and conquering peaks."
+  speaker_linkedin_url: "https://www.linkedin.com/in/mattia-pispisa-252363189"
   is_mc: false
 
 speakers:
@@ -70,6 +92,8 @@ speakers:
   speaker_3: *TejasKumar
   speaker_4: *FabioBiondi
   speaker_5: *MatteoFrana
+  speaker_6: *SilviaFlorio
+  speaker_7: *MattiaPispisa
 
 tracks:
   track_1: &track_1
@@ -182,3 +206,17 @@ Engage with the speaker, answer questions, and learn more about the subject thro
         talk_video_url:
         speakers:
           speaker_5: *MatteoFrana
+      
+      HowToTrainYourUseReducer:TurningYourStateManagementStrategyIntoANightFury:
+        item_type: "talk"
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "How to train your useReducer: turning your state management strategy into a Night Fury"
+        talk_description: "Splitting the view from the controller is foundational to build great applications. <br />
+        We tend to rely on external libraries to manage their state. But React itself has a great off-the-shelf state management tool: the useReducer.
+In this talk we’re going to get to know more about it, and especially learn how to enhance it tailoring it to our needs. <br />
+You'll discover what you have been missing."
+        talk_video_url:
+        speakers:
+          speaker_6: *SilviaFlorio
+          speaker_7: *MattiaPispisa
