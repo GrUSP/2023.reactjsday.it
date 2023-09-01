@@ -86,6 +86,18 @@ speaker_7: &MattiaPispisa
   speaker_linkedin_url: "https://www.linkedin.com/in/mattia-pispisa-252363189"
   is_mc: false
 
+speaker_8: &RubyJaneCabagnot
+  speaker_in_speaker_lists: true
+  speaker_name: Ruby Jane Cabagnot
+  speaker_pic_filename: RubyJaneCabagnot.png
+  speaker_role: "Frontend developer @ Sannsyn"
+  speaker_bio: "Crafting enterprise front-end architectures , mainly focusing on React. CS graduate, eager learner, constantly diving into new tech realms and savoring books' wisdom. <br />
+  Balancing code and adventure, with a love for staying active and in shape. My life evolves around code, learning and conquering peaks."
+  speaker_linkedin_url: "https://www.linkedin.com/in/rubyjane/"
+  speaker_twitter_url: "https://twitter.com/rubyjane88"
+  speaker_github_url: "https://github.com/RubyJane88"
+  is_mc: false
+
 speakers:
   speaker_1: *GonzaloBeviglia
   speaker_2: *AashimaAhuja
@@ -94,6 +106,7 @@ speakers:
   speaker_5: *MatteoFrana
   speaker_6: *SilviaFlorio
   speaker_7: *MattiaPispisa
+  speaker_8: *RubyJaneCabagnot
 
 tracks:
   track_1: &track_1
@@ -207,7 +220,7 @@ Engage with the speaker, answer questions, and learn more about the subject thro
         speakers:
           speaker_5: *MatteoFrana
       
-      HowToTrainYourUseReducer:TurningYourStateManagementStrategyIntoANightFury:
+      HowToTrainYourUseReducerTurningYourStateManagementStrategyIntoANightFury:
         item_type: "talk"
         # start_datetime: 2022-05-19T10:25+02:00
         # end_datetime: 2022-05-19T11:05+02:00
@@ -220,3 +233,20 @@ You'll discover what you have been missing."
         speakers:
           speaker_6: *SilviaFlorio
           speaker_7: *MattiaPispisa
+
+      UsingTheReactEcosystemWithTheWorld'sFirstO(1)JavaScriptFramework:
+        item_type: "talk"
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Using the React Ecosystem with the World's First O(1) JavaScript Framework"
+        talk_description: "What if you can use the fastest JavaScript framework along with React? What if you can build applications that feel fast regardless of application size? <br />
+
+Qwik is a JavaScript framework that uses a new rendering paradigm called resumability. It can serialize a JavaScript app into HTML, thus eliminating the need for the hydration technique used in meta-frameworks like Next.js.
+<br />
+In this talk, Ruby Jane Cabagnot will talk about Qwik and reusability. Then talk about QwikReact, which allows you to use React components in Qwik, including the whole ecosystem of component libraries, such as Material UI, Threejs, and React Spring.
+<br />
+ Is Qwik the world's first O(1) JavaScript framework? Let's find out."
+        talk_video_url:
+        speakers:
+          speaker_8: *RubyJaneCabagnot
+
