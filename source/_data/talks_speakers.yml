@@ -38,12 +38,87 @@ speaker_3: &TejasKumar
   <br /> Today, Tejas shares talks at large with developer communities worldwide, equipping them to do their best work. "
   speaker_github_url: "https://github.com/tejasq"
   speaker_twitter_url: "https://twitter.com/tejaskumar_"
+  is_mc: true
+
+speaker_4: &FabioBiondi
+  speaker_in_speaker_lists: true
+  speaker_name: Fabio Biondi
+  speaker_pic_filename: FabioBiondi.png
+  speaker_role: "Google Expert & Microsoft MVP"
+  speaker_bio: "Fabio is a front-end instructor, speaker, OSS contributor and run several front-end communities. <br />
+  He is especially focused on JavaScript front-end applications and all related aspects, both visuals and architecturals. He often work on cutting-edge libraries and frameworks offering training, development, code review and consulting on Angular, React, Qwik, Next, Astro and several other front-end technologies."
+  speaker_github_url: "https://github.com/fabiobiondi"
+  speaker_twitter_url: "https://twitter.com/biondifabio"
+  speaker_linkedin_url: "https://www.linkedin.com/in/fabiobiondi/"
   is_mc: false
 
+speaker_5: &MatteoFrana
+  speaker_in_speaker_lists: true
+  speaker_name: Matteo Frana
+  speaker_pic_filename: MatteoFrana.png
+  speaker_role: "CEO @ React Bricks"
+  speaker_bio: "Developer since I was 10 (GW-BASIC on IBM 8088), web developer and entrepreneur since I was 17 (1996). <br /> 
+  I love React. I am building React Bricks to make content editing easy and fun."
+  speaker_github_url: "https://github.com/ReactBricks"
+  speaker_twitter_url: "https://twitter.com/matfrana"
+  speaker_linkedin_url: "https://www.linkedin.com/in/matteofrana/"
+  is_mc: false
+
+speaker_6: &SilviaFlorio
+  speaker_in_speaker_lists: true
+  speaker_name: Silvia Florio
+  speaker_pic_filename: SilviaFlorio.png
+  speaker_role: "Interaction Designer @ MV Labs"
+  speaker_bio: "Passionate interaction designer merging psychology with tech. <br />
+  With a solid background in Front-end development and prior experiences as a front-end developer, I currently live at the intersection of design, tech, and the joyous chaos of motherhood! <br />
+  Mum of two, anime lover finding inspiration and creativity in parallel universes - and that's just in case you were wondering where the talk title came from."
+
+  speaker_linkedin_url: "https://www.linkedin.com/in/silviajoy/"
+  is_mc: false
+
+speaker_7: &MattiaPispisa
+  speaker_in_speaker_lists: true
+  speaker_name: Mattia Pispisa
+  speaker_pic_filename: MattiaPispisa.png
+  speaker_role: "Lead Front-End Engineer @ MV Labs"
+  speaker_bio: "Crafting enterprise front-end architectures , mainly focusing on React. CS graduate, eager learner, constantly diving into new tech realms and savoring books' wisdom. <br />
+  Balancing code and adventure, with a love for staying active and in shape. My life evolves around code, learning and conquering peaks."
+  speaker_linkedin_url: "https://www.linkedin.com/in/mattia-pispisa-252363189"
+  is_mc: false
+
+speaker_8: &RubyJaneCabagnot
+  speaker_in_speaker_lists: true
+  speaker_name: Ruby Jane Cabagnot
+  speaker_pic_filename: RubyJaneCabagnot.png
+  speaker_role: "Frontend developer @ Sannsyn"
+  speaker_bio: "Crafting enterprise front-end architectures , mainly focusing on React. CS graduate, eager learner, constantly diving into new tech realms and savoring books' wisdom. <br />
+  Balancing code and adventure, with a love for staying active and in shape. My life evolves around code, learning and conquering peaks."
+  speaker_linkedin_url: "https://www.linkedin.com/in/rubyjane/"
+  speaker_twitter_url: "https://twitter.com/rubyjane88"
+  speaker_github_url: "https://github.com/RubyJane88"
+  is_mc: false
+
+speaker_9: &PaoloInsogna
+  speaker_in_speaker_lists: true
+  speaker_name: Paolo Insogna
+  speaker_pic_filename: PaoloInsogna.png
+  speaker_role: "Node.js core and Staff DX Engineer @ NearForm"
+  speaker_bio: "Node.js Core Member, Staff Developer Experience Engineer at NearForm, Co-founder and Principal Architect at OramaSearch, Polyglot Developer. <br />
+  RPG and LARP addicted and nerd on lot more. Surrounded by lovely chubby cats."
+  speaker_linkedin_url: "https://www.linkedin.com/in/pinsogna/"
+  speaker_twitter_url: "https://twitter.com/p_insogna"
+  speaker_github_url: "https://github.com/shogunpanda"
+  is_mc: false
 
 speakers:
-  speaker_1: *GonzaloBeviglia
   speaker_2: *AashimaAhuja
+  speaker_4: *FabioBiondi
+  speaker_1: *GonzaloBeviglia
+  speaker_5: *MatteoFrana
+  speaker_7: *MattiaPispisa
+  speaker_9: *PaoloInsogna
+  speaker_8: *RubyJaneCabagnot
+  speaker_6: *SilviaFlorio
   speaker_3: *TejasKumar
 
 tracks:
@@ -130,3 +205,76 @@ This talk explains concurrency in detail which is not only a breaking change in 
         talk_video_url:
         speakers:
           speaker_3: *TejasKumar
+      
+      Quiz:
+        item_type: "talk"
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "How Well Do You Know React? let's have fun together!"
+        talk_description: "Curious about your React knowledge? 
+Ready to take on a friendly challenge? <br />
+ In this lively and engaging session, we invite you to participate in an interactive quiz centered around the Angular ecosystem. <br />
+Whether you're new to Angular or a seasoned pro, this quiz is designed to spark curiosity and deepen understanding, all in a collaborative and fun environment. <br />
+Engage with the speaker, answer questions, and learn more about the subject through technical insights and explanations. "
+        talk_video_url:
+        speakers:
+          speaker_4: *FabioBiondi
+
+      ReactInlineVisualEiting:
+        item_type: "talk"
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "React inline visual editing: now's the time."
+        talk_description: "Over the last 25 years we have seen many products and services designed to edit websites in a visual way. <br />
+        They were either good for developers or for content editors: never for both.<br />
+        We built React Bricks to overcome this limitation with a good abstraction that unifies the team and streamlines the process. <br />
+        We’ll explore the technical challenges we faced, the solutions we found and we’ll see how fun it is to develop visually editable Lego bricks of content using just React components."
+        talk_video_url:
+        speakers:
+          speaker_5: *MatteoFrana
+      
+      HowToTrainYourUseReducerTurningYourStateManagementStrategyIntoANightFury:
+        item_type: "talk"
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "How to train your useReducer: turning your state management strategy into a Night Fury"
+        talk_description: "Splitting the view from the controller is foundational to build great applications. <br />
+        We tend to rely on external libraries to manage their state. But React itself has a great off-the-shelf state management tool: the useReducer.
+In this talk we’re going to get to know more about it, and especially learn how to enhance it tailoring it to our needs. <br />
+You'll discover what you have been missing."
+        talk_video_url:
+        speakers:
+          speaker_6: *SilviaFlorio
+          speaker_7: *MattiaPispisa
+
+      UsingTheReactEcosystemWithTheWorld'sFirstO(1)JavaScriptFramework:
+        item_type: "talk"
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Using the React Ecosystem with the World's First O(1) JavaScript Framework"
+        talk_description: "What if you can use the fastest JavaScript framework along with React? What if you can build applications that feel fast regardless of application size? <br />
+
+Qwik is a JavaScript framework that uses a new rendering paradigm called resumability. It can serialize a JavaScript app into HTML, thus eliminating the need for the hydration technique used in meta-frameworks like Next.js.
+<br />
+In this talk, Ruby Jane Cabagnot will talk about Qwik and reusability. Then talk about QwikReact, which allows you to use React components in Qwik, including the whole ecosystem of component libraries, such as Material UI, Threejs, and React Spring.
+<br />
+ Is Qwik the world's first O(1) JavaScript framework? Let's find out."
+        talk_video_url:
+        speakers:
+          speaker_8: *RubyJaneCabagnot
+
+      DoNotBreakGraphQL,ExtendIt:
+        item_type: "talk"
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Do not break GraphQL, extend it!"
+        talk_description: "GraphQL is powerful technology to retrieve and send complex structures from remote locations with a simple and effective syntax. One of its perks is avoid under-fetching and over-fetching as the client specifically requests the fields it’s interested in. 
+<br />
+But what happens if we need to enrich or customize the data set and we can’t modify the upstream GraphQL server? Shall we break the spec?
+<br />
+In this talk I will show you how to use the resources the GraphQL specification already gives us to solve this issue without having to break the rules."
+        talk_video_url:
+        speakers:
+          speaker_9: *PaoloInsogna
+
+
