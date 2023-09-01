@@ -52,11 +52,24 @@ speaker_4: &FabioBiondi
   speaker_linkeding_url: "https://www.linkedin.com/in/fabiobiondi/"
   is_mc: false
 
+speaker_5: &MatteoFrana
+  speaker_in_speaker_lists: true
+  speaker_name: Matteo Frana
+  speaker_pic_filename: MatteoFrana.png
+  speaker_role: "CEO @ React Bricks"
+  speaker_bio: "Developer since I was 10 (GW-BASIC on IBM 8088), web developer and entrepreneur since I was 17 (1996). <br /> 
+  I love React. I am building React Bricks to make content editing easy and fun."
+  speaker_github_url: "https://github.com/ReactBricks"
+  speaker_twitter_url: "https://twitter.com/matfrana"
+  speaker_linkeding_url: "https://www.linkedin.com/in/matteofrana/"
+  is_mc: false
+
 speakers:
   speaker_1: *GonzaloBeviglia
   speaker_2: *AashimaAhuja
   speaker_3: *TejasKumar
   speaker_4: *FabioBiondi
+  speaker_5: *MatteoFrana
 
 tracks:
   track_1: &track_1
@@ -156,3 +169,16 @@ Engage with the speaker, answer questions, and learn more about the subject thro
         talk_video_url:
         speakers:
           speaker_4: *FabioBiondi
+
+      ReactInlineVisualEiting:
+        item_type: "talk"
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "React inline visual editing: now's the time."
+        talk_description: "Over the last 25 years we have seen many products and services designed to edit websites in a visual way. <br />
+        They were either good for developers or for content editors: never for both.<br />
+        We built React Bricks to overcome this limitation with a good abstraction that unifies the team and streamlines the process. <br />
+        We’ll explore the technical challenges we faced, the solutions we found and we’ll see how fun it is to develop visually editable Lego bricks of content using just React components."
+        talk_video_url:
+        speakers:
+          speaker_5: *MatteoFrana
