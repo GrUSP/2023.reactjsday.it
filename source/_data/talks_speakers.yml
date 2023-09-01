@@ -111,15 +111,15 @@ speaker_9: &PaoloInsogna
   is_mc: false
 
 speakers:
-  speaker_1: *GonzaloBeviglia
   speaker_2: *AashimaAhuja
-  speaker_3: *TejasKumar
   speaker_4: *FabioBiondi
+  speaker_1: *GonzaloBeviglia
   speaker_5: *MatteoFrana
-  speaker_6: *SilviaFlorio
   speaker_7: *MattiaPispisa
-  speaker_8: *RubyJaneCabagnot
   speaker_9: *PaoloInsogna
+  speaker_8: *RubyJaneCabagnot
+  speaker_6: *SilviaFlorio
+  speaker_3: *TejasKumar
 
 tracks:
   track_1: &track_1
