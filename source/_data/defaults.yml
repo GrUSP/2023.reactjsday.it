@@ -60,7 +60,7 @@ conference:
   geninfo_description: "reactjsday 2023 is the 9th edition of the Italian React conference, organized by GrUSP, organizers of events like <a href='https://www.jsday.it/'>jsday</a> and <a href='https://www.phpday.it/'>phpday</a>.
   <br> <br /> The event is international and all sessions will be in English.
   <br> The event’s goal is to allow all React developers to meet and share experience while having fun and networking in an enjoyable context.
-  <br> <br /><b>reactjsday 2023 is happening in Verona and online on Friday, October 27th 2023.</b><br>."
+  <br> <br /><b>reactjsday 2023 is happening in Verona and online on Friday, October 27th 2023.</b> The day before the conference (Thursday, 26th October) well host two <a href='https://2023.reactjsday.it/workshop/'>workshops.</a><br>"
   geninfo_about_label: "About"
   geninfo_coc_label: "Code of conduct"
   geninfo_scholarships_label: "Scholarships"
@@ -103,7 +103,7 @@ conference:
 
   topics_payoff: "...and much more!"
   # "workshop" component. set the first parameter to true to make it appear in home page, false means hidden
-  workshop_visible: false
+  workshop_visible: true
   workshops_title: "workshop"
   workshops_tickets_label: "Buy tickets"
   workshops_readmore_label: "Read more"

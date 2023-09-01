@@ -11,12 +11,12 @@ menu:
   # scommentare per generare pagina
   # schedule: schedule
   # menu item for workshop
-  # workshop: workshop
+  workshop: workshop
 
 # workshops submenu (comment out if only one workshop: add items for multiple workshops)
-# workshop_submenu:
-#   workshop_1: rails and vue
-#   workshop_2: sample second workshop
+workshop_submenu:
+  prompt-engineering: Introduction to Large Language Models and ChatGPT
+  design-system: "The science of a button: introduzione ai design system per JS developer"
 
 # welcome submenu
 welcome_submenu:
