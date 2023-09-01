@@ -36,7 +36,7 @@ workshops:
     language: "italian / italiano"
     language_ext: "This workshop is in Italian language only"
     language_additional_info: "This workshop is in Italian language only"
-    collab: ""
+    collab: "Workshop realizzato da <a href='https://apropos.srl'>Apropos</a>"
     description: "[Italian Language] Impara a progettare e implementare un design system scalabile e coeso"
     description_long: "<b>Impara a progettare e implementare un design system scalabile e coeso</b>
     <br> In questo workshop intensivo di una giornata, imparerai i principi fondamentali per la creazione di un design system efficace e come integrarlo con successo nel tuo team.
@@ -87,8 +87,8 @@ workshops:
     ws_id: prompt-engineering
     is_external: false
     page_uri: "workshop/prompt-engineering.html"
-    page_title: "Introduction to Large Language Models and ChatGPT"
-    workshop_title: "Workshop: Introduction to Large Language Models and ChatGPT"
+    page_title: "Workshop: Introduction to Large Language Models and ChatGPT"
+    workshop_title: "Introduction to Large Language Models and ChatGPT"
     ticket_url: "https://ti.to/grusp/reactjsday-2023"
     ticket_label: "Get your ticket"
     location_title: "Where"
@@ -115,7 +115,7 @@ workshops:
     language_ext: "Language: English"
     language_additional_info: ""
     # no collab / commented out
-    # collab:
+    collab: "Workshop produced by <a href='https://apropos.srl'>Apropos</a>"
     description: "[English Language] How these models work and how to program them using prompt engineering"
     description_long: "<b>How these models work and how to program them using prompt engineering</b>
     <br>In this workshop, Large Language Models (LLMs) will be presented with a particular focus on ChatGPT, the cutting-edge system that is revolutionizing the computer science market and beyond.

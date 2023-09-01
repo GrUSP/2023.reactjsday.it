@@ -4,19 +4,6 @@ schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
-speaker_1: &GonzaloBeviglia
-  speaker_in_speaker_lists: true
-  speaker_name: Gonzalo Beviglia
-  speaker_pic_filename: GonzaloBeviglia.png
-  speaker_role: "Staff Software Engineer @ Box"
-  speaker_bio: "Leading high-impact technical initiatives, engineering huge-scale applications, and aiding in cross-team collaboration has given me first-hand experience across the whole software development lifecycle.
-<br />I believe in radical candor and mentoring individuals to build high performance teams. <br />I bring proactivity, disruption, and agile leadership to the table. <br /> Driving continuous improvement at scale is my north star.
-I'm an all around player in love with great product companies."
-  speaker_github_url: "https://github.com/GonchuB"
-  speaker_twitter_url: "https://twitter.com/GonchuB"
-  is_mc: false
-
-
 speaker_2: &AashimaAhuja
   speaker_in_speaker_lists: true
   speaker_name: Aashima Ahuja
@@ -27,18 +14,6 @@ speaker_2: &AashimaAhuja
   speaker_github_url: "https://github.com/AashimaAhuja"
   speaker_twitter_url: "https://twitter.com/aashimaahuja22"
   is_mc: false
-
-
-speaker_3: &TejasKumar
-  speaker_in_speaker_lists: true
-  speaker_name: Tejas Kumar
-  speaker_pic_filename: TejasKumar.png
-  speaker_role: "Chief Developer Advocate"
-  speaker_bio: "Tejas Kumar is an international keynote speaker with an engineering background spanning 22 years, from design to frontend to backend to devops.
-  <br /> Today, Tejas shares talks at large with developer communities worldwide, equipping them to do their best work. "
-  speaker_github_url: "https://github.com/tejasq"
-  speaker_twitter_url: "https://twitter.com/tejaskumar_"
-  is_mc: true
 
 speaker_4: &FabioBiondi
   speaker_in_speaker_lists: true
@@ -52,12 +27,36 @@ speaker_4: &FabioBiondi
   speaker_linkedin_url: "https://www.linkedin.com/in/fabiobiondi/"
   is_mc: false
 
+speaker_1: &GonzaloBeviglia
+  speaker_in_speaker_lists: true
+  speaker_name: Gonzalo Beviglia
+  speaker_pic_filename: GonzaloBeviglia.png
+  speaker_role: "Staff Software Engineer @ Box"
+  speaker_bio: "Leading high-impact technical initiatives, engineering huge-scale applications, and aiding in cross-team collaboration has given me first-hand experience across the whole software development lifecycle.
+<br />I believe in radical candor and mentoring individuals to build high performance teams. <br />I bring proactivity, disruption, and agile leadership to the table. <br /> Driving continuous improvement at scale is my north star.
+I'm an all around player in love with great product companies."
+  speaker_github_url: "https://github.com/GonchuB"
+  speaker_twitter_url: "https://twitter.com/GonchuB"
+  is_mc: false
+
+speaker_8: &RubyJaneCabagnot
+  speaker_in_speaker_lists: true
+  speaker_name: Ruby Jane Cabagnot
+  speaker_pic_filename: RubyJaneCabagnot.png
+  speaker_role: "Frontend developer @ Sannsyn"
+  speaker_bio: "Crafting enterprise front-end architectures , mainly focusing on React. CS graduate, eager learner, constantly diving into new tech realms and savoring books' wisdom. <br />
+  Balancing code and adventure, with a love for staying active and in shape. My life evolves around code, learning and conquering peaks."
+  speaker_linkedin_url: "https://www.linkedin.com/in/rubyjane/"
+  speaker_twitter_url: "https://twitter.com/rubyjane88"
+  speaker_github_url: "https://github.com/RubyJane88"
+  is_mc: false
+
 speaker_5: &MatteoFrana
   speaker_in_speaker_lists: true
   speaker_name: Matteo Frana
   speaker_pic_filename: MatteoFrana.png
   speaker_role: "CEO @ React Bricks"
-  speaker_bio: "Developer since I was 10 (GW-BASIC on IBM 8088), web developer and entrepreneur since I was 17 (1996). <br /> 
+  speaker_bio: "Developer since I was 10 (GW-BASIC on IBM 8088), web developer and entrepreneur since I was 17 (1996). <br />
   I love React. I am building React Bricks to make content editing easy and fun."
   speaker_github_url: "https://github.com/ReactBricks"
   speaker_twitter_url: "https://twitter.com/matfrana"
@@ -86,17 +85,6 @@ speaker_7: &MattiaPispisa
   speaker_linkedin_url: "https://www.linkedin.com/in/mattia-pispisa-252363189"
   is_mc: false
 
-speaker_8: &RubyJaneCabagnot
-  speaker_in_speaker_lists: true
-  speaker_name: Ruby Jane Cabagnot
-  speaker_pic_filename: RubyJaneCabagnot.png
-  speaker_role: "Frontend developer @ Sannsyn"
-  speaker_bio: "Crafting enterprise front-end architectures , mainly focusing on React. CS graduate, eager learner, constantly diving into new tech realms and savoring books' wisdom. <br />
-  Balancing code and adventure, with a love for staying active and in shape. My life evolves around code, learning and conquering peaks."
-  speaker_linkedin_url: "https://www.linkedin.com/in/rubyjane/"
-  speaker_twitter_url: "https://twitter.com/rubyjane88"
-  speaker_github_url: "https://github.com/RubyJane88"
-  is_mc: false
 
 speaker_9: &PaoloInsogna
   speaker_in_speaker_lists: true
@@ -110,16 +98,27 @@ speaker_9: &PaoloInsogna
   speaker_github_url: "https://github.com/shogunpanda"
   is_mc: false
 
+speaker_3: &TejasKumar
+  speaker_in_speaker_lists: true
+  speaker_name: Tejas Kumar
+  speaker_pic_filename: TejasKumar.png
+  speaker_role: "Chief Developer Advocate"
+  speaker_bio: "Tejas Kumar is an international keynote speaker with an engineering background spanning 22 years, from design to frontend to backend to devops.
+  <br /> Today, Tejas shares talks at large with developer communities worldwide, equipping them to do their best work. "
+  speaker_github_url: "https://github.com/tejasq"
+  speaker_twitter_url: "https://twitter.com/tejaskumar_"
+  is_mc: false
+
 speakers:
-  speaker_2: *AashimaAhuja
-  speaker_4: *FabioBiondi
-  speaker_1: *GonzaloBeviglia
-  speaker_5: *MatteoFrana
-  speaker_7: *MattiaPispisa
-  speaker_9: *PaoloInsogna
-  speaker_8: *RubyJaneCabagnot
-  speaker_6: *SilviaFlorio
-  speaker_3: *TejasKumar
+  speaker_1: *AashimaAhuja
+  speaker_2: *FabioBiondi
+  speaker_3: *GonzaloBeviglia
+  speaker_4: *RubyJaneCabagnot
+  speaker_5: *SilviaFlorio
+  speaker_6: *MatteoFrana
+  speaker_7: *PaoloInsogna
+  speaker_8: *MattiaPispisa
+  speaker_9: *TejasKumar
 
 tracks:
   track_1: &track_1
@@ -174,6 +173,18 @@ days:
       #   talk_video_url:
       #   speakers:
       #     speaker_1: *speaker
+
+      PerformanceWinsInReact18:
+        item_type: "talk"
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Performance wins in React 18"
+        talk_description: "React 18 was launched last year in March. A lot of people are considering to migrate. This talks gives them overview of the new features as well as how to use those features properly to improve performance of your app.<br />
+This talk explains concurrency in detail which is not only a breaking change in this version but also going to be foundational in the coming versions of React. The talk includes live code demos to make the concepts more clearer."
+        talk_video_url:
+        speakers:
+          speaker_2: *AashimaAhuja
+
       ReactObservability:
         item_type: "talk"
         # start_datetime: 2022-05-19T10:25+02:00
@@ -184,34 +195,12 @@ days:
         speakers:
           speaker_1: *GonzaloBeviglia
 
-      PerformanceWinsInReact18:
-        item_type: "talk"
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Performance wins in React 18"
-        talk_description: "React 18 was launched last year in March. A lot of people are considering to migrate. This talks gives them overview of the new features as well as how to use those features properly to improve performance of your app.<br />
-
-This talk explains concurrency in detail which is not only a breaking change in this version but also going to be foundational in the coming versions of React. The talk includes live code demos to make the concepts more clearer."
-        talk_video_url:
-        speakers:
-          speaker_2: *AashimaAhuja
-
-      ServerComponentsForTheRestOfUs:
-        item_type: "talk"
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Server Components for the Rest of Us"
-        talk_description: "This talk explores how Server Components work, and why we need new-generation tooling for it."
-        talk_video_url:
-        speakers:
-          speaker_3: *TejasKumar
-      
       Quiz:
         item_type: "talk"
         # start_datetime: 2022-05-19T10:25+02:00
         # end_datetime: 2022-05-19T11:05+02:00
         talk_title: "How Well Do You Know React? let's have fun together!"
-        talk_description: "Curious about your React knowledge? 
+        talk_description: "Curious about your React knowledge?
 Ready to take on a friendly challenge? <br />
  In this lively and engaging session, we invite you to participate in an interactive quiz centered around the Angular ecosystem. <br />
 Whether you're new to Angular or a seasoned pro, this quiz is designed to spark curiosity and deepen understanding, all in a collaborative and fun environment. <br />
@@ -219,33 +208,6 @@ Engage with the speaker, answer questions, and learn more about the subject thro
         talk_video_url:
         speakers:
           speaker_4: *FabioBiondi
-
-      ReactInlineVisualEiting:
-        item_type: "talk"
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "React inline visual editing: now's the time."
-        talk_description: "Over the last 25 years we have seen many products and services designed to edit websites in a visual way. <br />
-        They were either good for developers or for content editors: never for both.<br />
-        We built React Bricks to overcome this limitation with a good abstraction that unifies the team and streamlines the process. <br />
-        We’ll explore the technical challenges we faced, the solutions we found and we’ll see how fun it is to develop visually editable Lego bricks of content using just React components."
-        talk_video_url:
-        speakers:
-          speaker_5: *MatteoFrana
-      
-      HowToTrainYourUseReducerTurningYourStateManagementStrategyIntoANightFury:
-        item_type: "talk"
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "How to train your useReducer: turning your state management strategy into a Night Fury"
-        talk_description: "Splitting the view from the controller is foundational to build great applications. <br />
-        We tend to rely on external libraries to manage their state. But React itself has a great off-the-shelf state management tool: the useReducer.
-In this talk we’re going to get to know more about it, and especially learn how to enhance it tailoring it to our needs. <br />
-You'll discover what you have been missing."
-        talk_video_url:
-        speakers:
-          speaker_6: *SilviaFlorio
-          speaker_7: *MattiaPispisa
 
       UsingTheReactEcosystemWithTheWorld'sFirstO(1)JavaScriptFramework:
         item_type: "talk"
@@ -263,12 +225,39 @@ In this talk, Ruby Jane Cabagnot will talk about Qwik and reusability. Then talk
         speakers:
           speaker_8: *RubyJaneCabagnot
 
+      HowToTrainYourUseReducerTurningYourStateManagementStrategyIntoANightFury:
+        item_type: "talk"
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "How to train your useReducer: turning your state management strategy into a Night Fury"
+        talk_description: "Splitting the view from the controller is foundational to build great applications. <br />
+        We tend to rely on external libraries to manage their state. But React itself has a great off-the-shelf state management tool: the useReducer.
+In this talk we’re going to get to know more about it, and especially learn how to enhance it tailoring it to our needs. <br />
+You'll discover what you have been missing."
+        talk_video_url:
+        speakers:
+          speaker_6: *SilviaFlorio
+          speaker_7: *MattiaPispisa
+
+      ReactInlineVisualEiting:
+        item_type: "talk"
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "React inline visual editing: now's the time."
+        talk_description: "Over the last 25 years we have seen many products and services designed to edit websites in a visual way. <br />
+        They were either good for developers or for content editors: never for both.<br />
+        We built React Bricks to overcome this limitation with a good abstraction that unifies the team and streamlines the process. <br />
+        We’ll explore the technical challenges we faced, the solutions we found and we’ll see how fun it is to develop visually editable Lego bricks of content using just React components."
+        talk_video_url:
+        speakers:
+          speaker_5: *MatteoFrana
+
       DoNotBreakGraphQL,ExtendIt:
         item_type: "talk"
         # start_datetime: 2022-05-19T10:25+02:00
         # end_datetime: 2022-05-19T11:05+02:00
         talk_title: "Do not break GraphQL, extend it!"
-        talk_description: "GraphQL is powerful technology to retrieve and send complex structures from remote locations with a simple and effective syntax. One of its perks is avoid under-fetching and over-fetching as the client specifically requests the fields it’s interested in. 
+        talk_description: "GraphQL is powerful technology to retrieve and send complex structures from remote locations with a simple and effective syntax. One of its perks is avoid under-fetching and over-fetching as the client specifically requests the fields it’s interested in.
 <br />
 But what happens if we need to enrich or customize the data set and we can’t modify the upstream GraphQL server? Shall we break the spec?
 <br />
@@ -277,4 +266,12 @@ In this talk I will show you how to use the resources the GraphQL specification 
         speakers:
           speaker_9: *PaoloInsogna
 
-
+      ServerComponentsForTheRestOfUs:
+        item_type: "talk"
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Server Components for the Rest of Us"
+        talk_description: "This talk explores how Server Components work, and why we need new-generation tooling for it."
+        talk_video_url:
+        speakers:
+          speaker_3: *TejasKumar
