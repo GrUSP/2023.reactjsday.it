@@ -4679,7 +4679,7 @@ header {
 .hero__container {
   flex-direction: row;
   width: 100vw;
-  height: 40vh;
+  min-height: 50vh;
   background-image: url("/assets/img/hero/hero.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -4708,7 +4708,8 @@ header {
     .hero__container {
       background-image: url("/assets/img/hero/mobile_small_hero.jpg"); } }
   .hero__container .inner {
-    align-items: center; }
+    align-items: center;
+    margin-bottom: 2em; }
   .hero__container .row-info {
     display: flex;
     flex-direction: row;
@@ -4732,7 +4733,7 @@ header {
     .hero__container svg path {
       fill: #fff; }
   .hero__container .row__title {
-    padding: 8em 0 4em; }
+    padding: 4em 0 4em; }
     @media screen and (min-width: 769px), print {
       .hero__container .row__title {
         padding: 1em 0; } }
@@ -4852,7 +4853,8 @@ header {
     .cfp__container .inner .row-info {
       display: inline-flex;
       flex-wrap: wrap;
-      align-items: center; }
+      align-items: center;
+      gap: em; }
     .cfp__container .inner span {
       margin-right: 0; }
       @media screen and (min-width: 769px), print {
