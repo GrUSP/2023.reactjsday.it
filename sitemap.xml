@@ -2,35 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://2023.reactjsday.it/welcome/about.html</loc>
-    
-    <lastmod>2023-09-06</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://2023.reactjsday.it/workshop/prompt-engineering.html</loc>
-    
-    <lastmod>2023-09-06</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2023.reactjsday.it/schedule/index.html</loc>
-    
-    <lastmod>2023-09-06</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2023.reactjsday.it/sponsor/index.html</loc>
-    
-    <lastmod>2023-09-06</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2023.reactjsday.it/talks_speakers/index.html</loc>
     
     <lastmod>2023-09-06</lastmod>
     
@@ -58,20 +30,6 @@
   </url>
   
   <url>
-    <loc>https://2023.reactjsday.it/welcome/cfp.html</loc>
-    
-    <lastmod>2023-09-06</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2023.reactjsday.it/welcome/coc.html</loc>
-    
-    <lastmod>2023-09-06</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://2023.reactjsday.it/welcome/scholarships.html</loc>
     
     <lastmod>2023-09-06</lastmod>
@@ -86,7 +44,42 @@
   </url>
   
   <url>
-    <loc>https://2023.reactjsday.it/2019/08/19/test/</loc>
+    <loc>https://2023.reactjsday.it/schedule/index.html</loc>
+    
+    <lastmod>2023-09-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2023.reactjsday.it/sponsor/index.html</loc>
+    
+    <lastmod>2023-09-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2023.reactjsday.it/welcome/cfp.html</loc>
+    
+    <lastmod>2023-09-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2023.reactjsday.it/welcome/coc.html</loc>
+    
+    <lastmod>2023-09-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2023.reactjsday.it/talks_speakers/index.html</loc>
+    
+    <lastmod>2023-09-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2023.reactjsday.it/welcome/about.html</loc>
     
     <lastmod>2023-09-06</lastmod>
     
@@ -94,6 +87,13 @@
   
   <url>
     <loc>https://2023.reactjsday.it/404.html</loc>
+    
+    <lastmod>2023-09-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2023.reactjsday.it/2019/08/19/test/</loc>
     
     <lastmod>2023-09-06</lastmod>
     
