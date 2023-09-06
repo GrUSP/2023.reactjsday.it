@@ -109,6 +109,18 @@ speaker_3: &TejasKumar
   speaker_twitter_url: "https://twitter.com/tejaskumar_"
   is_mc: false
 
+speaker_10: &RachelNabors
+  speaker_in_speaker_lists: true
+  speaker_name: Rachel Nabors
+  speaker_pic_filename: RachelNabors.png
+  speaker_role: "On sabbatical—formerly React core @ Meta"
+  speaker_bio: "Rachel Nabors has worked web standards and opensource with Mozilla, the W3C, Microsoft, and lead the new React and React Native docs at react.dev and reactnative.dev with the core teams at Meta. <br />Their dream is to teach the world to code so others may create a future we can all believe in. <br />
+  After leading developer education at AWS Amplify, they are traveling the world, reconnecting with the community and making cool things. "
+  speaker_github_url: "https://github.com/rachelnabors"
+  speaker_twitter_url: "https://twitter.com/rachelnabors"
+  speaker_linkedin_url: "https://www.linkedin.com/in/rachelnabors/"
+  is_mc: false
+
 speakers:
   speaker_1: *AashimaAhuja
   speaker_2: *FabioBiondi
@@ -117,6 +129,7 @@ speakers:
   speaker_5: *SilviaFlorio
   speaker_6: *MatteoFrana
   speaker_7: *PaoloInsogna
+  speaker_10: *RachelNabors
   speaker_8: *MattiaPispisa
   speaker_9: *TejasKumar
 
@@ -252,7 +265,7 @@ You'll discover what you have been missing."
         speakers:
           speaker_5: *MatteoFrana
 
-      DoNotBreakGraphQL,ExtendIt:
+      DoNotBreakGraphQLExtendIt:
         item_type: "talk"
         # start_datetime: 2022-05-19T10:25+02:00
         # end_datetime: 2022-05-19T11:05+02:00
@@ -265,6 +278,19 @@ In this talk I will show you how to use the resources the GraphQL specification 
         talk_video_url:
         speakers:
           speaker_9: *PaoloInsogna
+
+
+      GatewayToReact:TheReact.devStory:
+        item_type: "talk"
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Do not break GraphQL, extend it!"
+        talk_description: "The new react.dev launched this year introducing new methodologies like challenges and interactive sandboxes and subtle inclusivity features, like “international tone” and culturally agnostic examples. <br />
+        Not only have the new docs changed how people learn React, they’ve inspired how we think about developer education as a community. <br />
+        In this talk, you will learn how the React team and some ambitious community members made the “React docs rock” for a generation of front end developers and how these new patterns and established techniques can be applied in your favorite projects."
+        talk_video_url:
+        speakers:
+          speaker_10: *RachelNabors
 
       ServerComponentsForTheRestOfUs:
         item_type: "talk"
