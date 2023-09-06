@@ -4,11 +4,11 @@ sponsors_block_title: "Thanks for supporting reactjsday"
 #     name: ""
 #     logo_filename: ""
 #     site_url: ""
-# diamond:
-#   sponsor1:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
+diamond:
+  sponsor1:
+    name: "ReactBriks"
+    logo_filename: "reactbriks.svg"
+    site_url: "https://reactbricks.com"
 platinum:
   sponsor1:
     name: "eDreams Odigeo"
