@@ -6,8 +6,12 @@ sponsors_block_title: "Thanks for supporting reactjsday"
 #     site_url: ""
 diamond:
   sponsor1:
-    name: "ReactBriks"
-    logo_filename: "reactbriks.svg"
+    name: "Bryntum"
+    logo_filename: "bryntum.svg"
+    site_url: "https://bryntum.com/"
+  sponsor2:
+    name: "ReactBricks"
+    logo_filename: "reactbricks.svg"
     site_url: "https://reactbricks.com"
 platinum:
   sponsor1:
