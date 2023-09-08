@@ -49,6 +49,10 @@ silver:
     logo_filename: "madisoft.svg"
     site_url: "https://labs.madisoft.it"
   sponsor7:
+    name: "NearForm"
+    logo_filename: "nearform.svg"
+    site_url: "https://www.nearform.com/"
+  sponsor8:
     name: "Treatwell"
     logo_filename: "treatwell.svg"
     site_url: "https://www.treatwell.co.uk/"
