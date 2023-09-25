@@ -284,7 +284,7 @@ In this talk I will show you how to use the resources the GraphQL specification 
         item_type: "talk"
         # start_datetime: 2022-05-19T10:25+02:00
         # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Do not break GraphQL, extend it!"
+        talk_title: "Gateway to React: the react.dev story"
         talk_description: "The new react.dev launched this year introducing new methodologies like challenges and interactive sandboxes and subtle inclusivity features, like “international tone” and culturally agnostic examples. <br />
         Not only have the new docs changed how people learn React, they’ve inspired how we think about developer education as a community. <br />
         In this talk, you will learn how the React team and some ambitious community members made the “React docs rock” for a generation of front end developers and how these new patterns and established techniques can be applied in your favorite projects."
