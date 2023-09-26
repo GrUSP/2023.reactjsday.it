@@ -4,16 +4,17 @@ schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
-speaker_2: &AashimaAhuja
+speaker_2: &EdoardoDusi
   speaker_in_speaker_lists: true
-  speaker_name: Aashima Ahuja
-  speaker_pic_filename: AashimaAhuja.png
-  speaker_role: "Frontend Engineer @ Meta"
-  speaker_bio: "Frontend engineer @Meta and frontend content creator. Aashima is a web enthusiast. <br />She loves talking about the Web and exploring new technologies.
-  <br />She believes knowledge grows with sharing , so she love to spread her knowledge about frontend."
-  speaker_github_url: "https://github.com/AashimaAhuja"
-  speaker_twitter_url: "https://twitter.com/aashimaahuja22"
+  speaker_name: Edoardo Dusi
+  speaker_pic_filename: Edoardo-Dusi.png
+  speaker_role: "Developer Relations Engineer @ SparkFabrik"
+  speaker_bio: "Edoardo is a Developer Relations Engineer at SparkFabrik, a company that helps organisations build digital products with open source technologies. He has a strong software developer and team leader background, working on various projects and platforms. He is passionate about creating and sharing content that educates and inspires other developers, such as tech talks, videos, podcasts, conferences, and more. He enjoys connecting with the developer community and promoting the benefits of open source software."
+  speaker_github_url: "https://github.com/edodusi"
+  speaker_twitter_url: "https://twitter.com/edodusi"
+  speaker_linkedin_url: "https://www.linkedin.com/in/edoardodusi/"
   is_mc: false
+
 
 speaker_4: &FabioBiondi
   speaker_in_speaker_lists: true
@@ -122,10 +123,10 @@ speaker_10: &RachelNabors
   is_mc: false
 
 speakers:
-  speaker_1: *AashimaAhuja
-  speaker_2: *FabioBiondi
-  speaker_3: *GonzaloBeviglia
-  speaker_4: *RubyJaneCabagnot
+  speaker_1: *FabioBiondi
+  speaker_2: *GonzaloBeviglia
+  speaker_3: *RubyJaneCabagnot
+  speaker_4: *EdoardoDusi
   speaker_5: *SilviaFlorio
   speaker_6: *MatteoFrana
   speaker_7: *PaoloInsogna
@@ -187,16 +188,15 @@ days:
       #   speakers:
       #     speaker_1: *speaker
 
-      PerformanceWinsInReact18:
+      ReactVSTheRest:
         item_type: "talk"
         # start_datetime: 2022-05-19T10:25+02:00
         # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Performance wins in React 18"
-        talk_description: "React 18 was launched last year in March. A lot of people are considering to migrate. This talks gives them overview of the new features as well as how to use those features properly to improve performance of your app.<br />
-This talk explains concurrency in detail which is not only a breaking change in this version but also going to be foundational in the coming versions of React. The talk includes live code demos to make the concepts more clearer."
+        talk_title: "React vs. The Rest of The Web: Civil War"
+        talk_description: "In this talk, I will explore React through a practical lens, primarily focusing on three crucial aspects: rendering, reactivity, and state management. By building the same application using React and other popular JavaScript frameworks, we'll conduct a comparative analysis. Join me as we dissect React's approach to these core concepts and evaluate how it stacks up against other frameworks. By the end of this session, you'll gain valuable insights into the similarities and differences, allowing you to make informed decisions when choosing a framework for your projects."
         talk_video_url:
         speakers:
-          speaker_2: *AashimaAhuja
+          speaker_1: *EdoardoDusi
 
       ReactObservability:
         item_type: "talk"
