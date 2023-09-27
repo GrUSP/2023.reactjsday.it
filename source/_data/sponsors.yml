@@ -49,10 +49,18 @@ silver:
     logo_filename: "madisoft.svg"
     site_url: "https://labs.madisoft.it"
   sponsor7:
+    name: "MVLabs"
+    logo_filename: "mvlabs.svg"
+    site_url: "https://mvlabs.it/"
+  sponsor8:
     name: "NearForm"
     logo_filename: "nearform.svg"
     site_url: "https://www.nearform.com/"
-  sponsor8:
+  sponsor9:
+    name: "Sparkfabrik"
+    logo_filename: "sparkfabrik.png"
+    site_url: "https://www.sparkfabrik.com/it/"
+  sponsor10:
     name: "Treatwell"
     logo_filename: "treatwell.svg"
     site_url: "https://www.treatwell.co.uk/"
