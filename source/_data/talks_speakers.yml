@@ -1,5 +1,5 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: false
+generate_schedule_page: true
 schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
@@ -138,12 +138,6 @@ tracks:
   track_1: &track_1
     id: 1
     title: "Track 1"
-  track_2: &track_2
-    id: 2
-    title: "Track 2"
-  track_3: &track_3
-    id: 3
-    title: "Track 3 - fake track"
 
 # NB "item_type": tipi di "talk"
 #   "talk" -- un talk vero e proprio, che va anche in components/speakers e nella pagina talks_speakers
@@ -155,107 +149,106 @@ tracks:
 
 days:
   day_1:
-    date: 2020-09-16T09:00
+    date: 2023-10-27T09:00+02:00
     title: "Day 1"
     talks:
-      talk_1:
+    # service
+      check-in:
         item_type: "service"
-        start_datetime: 2020-09-16T09:00
-        end_datetime: 2020-09-16T09:30
-        talk_title: "Check-in"
-      talk_2:
+        start_datetime: 2023-10-27T09:00+02:00
+        end_datetime: 2023-10-27T09:25+02:00
+        talk_title: "Registration, collect your badge and swags and have a coffee!"
+      opening:
         item_type: "service"
-        start_datetime: 2022-05-19T13:00+02:00
-        end_datetime: 2022-05-19T14:30+02:00
+        start_datetime: 2023-10-27T09:25+02:00
+        end_datetime: 2023-10-27T09:40+02:00
+        talk_title: "Opening by GrUSP"
+      coffee-morning:
+        item_type: "service"
+        start_datetime: 2023-10-27T11:00+02:00
+        end_datetime: 2023-10-27T11:30+02:00
+        talk_title: "Coffee break"
+        service_icon: "coffee"
+      lunch:
+        item_type: "service"
+        start_datetime: 2023-10-27T12:50+02:00
+        end_datetime: 2023-10-27T14:10+02:00
         talk_title: "Lunch break"
         service_icon: "cutlery"
-      happy-hour:
+      coffee-afternoon:
         item_type: "service"
-        start_datetime: 2022-05-19T18:25+02:00
-        end_datetime: 2022-05-19T19:30+02:00
-        talk_title: "Happy Hour"
-        service_icon: "glass"
+        start_datetime: 2023-10-27T16:00+02:00
+        end_datetime: 2023-10-27T16:30+02:00
+        talk_title: "Coffee break"
+        service_icon: "coffee"
+      closing:
+        item_type: "service"
+        start_datetime: 2023-10-27T17:50+02:00
+        end_datetime: 2023-10-27T18:00+02:00
+        talk_title: "👋 See you next time!"
+      # happy-hour:
+      #   item_type: "service"
+      #   start_datetime: 2022-05-19T18:25+02:00
+      #   end_datetime: 2022-05-19T19:30+02:00
+      #   talk_title: "Happy Hour"
+      #   service_icon: "glass"
+
 
       # talk
       # keynote:
       #   item_type: "keynote"
       #   track: *track_1
-      #   start_datetime: 2022-05-19T09:30+02:00
-      #   end_datetime: 2022-05-19T10:25+02:00
+      #   start_datetime: 2023-10-27T09:30+02:00
+      #   end_datetime: 2023-10-27T10:25+02:00
       #   talk_title: ""
       #   talk_description: ""
       #   talk_video_url:
       #   speakers:
       #     speaker_1: *speaker
-
-      ReactVSTheRest:
+      ServerComponentsForTheRestOfUs:
         item_type: "talk"
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "React vs. The Rest of The Web: Civil War"
-        talk_description: "In this talk, I will explore React through a practical lens, primarily focusing on three crucial aspects: rendering, reactivity, and state management. By building the same application using React and other popular JavaScript frameworks, we'll conduct a comparative analysis. Join me as we dissect React's approach to these core concepts and evaluate how it stacks up against other frameworks. By the end of this session, you'll gain valuable insights into the similarities and differences, allowing you to make informed decisions when choosing a framework for your projects."
+        track: *track_1
+        start_datetime: 2023-10-27T09:40+02:00
+        end_datetime: 2023-10-27T10:20+02:00
+        talk_title: "Server Components for the Rest of Us"
+        talk_description: "This talk explores how Server Components work, and why we need new-generation tooling for it."
         talk_video_url:
         speakers:
-          speaker_1: *EdoardoDusi
-
-      ReactObservability:
-        item_type: "talk"
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Observability for React applications"
-        talk_description: "Observability is essential for developing and maintaining reliable and performance React applications. <br /> By the end of this talk, you will have a practical guide on how to make your React applications more observable and resilient using OpenTelemetry."
-        talk_video_url:
-        speakers:
-          speaker_1: *GonzaloBeviglia
-
-      Quiz:
-        item_type: "talk"
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "How Well Do You Know React? let's have fun together!"
-        talk_description: "Curious about your React knowledge?
-Ready to take on a friendly challenge? <br />
- In this lively and engaging session, we invite you to participate in an interactive quiz centered around the React ecosystem. <br />
-Whether you're new to React or a seasoned pro, this quiz is designed to spark curiosity and deepen understanding, all in a collaborative and fun environment. <br />
-Engage with the speaker, answer questions, and learn more about the subject through technical insights and explanations. "
-        talk_video_url:
-        speakers:
-          speaker_4: *FabioBiondi
-
-      UsingTheReactEcosystemWithTheWorld'sFirstO(1)JavaScriptFramework:
-        item_type: "talk"
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Using the React Ecosystem with the World's First O(1) JavaScript Framework"
-        talk_description: "What if you can use the fastest JavaScript framework along with React? What if you can build applications that feel fast regardless of application size? <br />
-
-Qwik is a JavaScript framework that uses a new rendering paradigm called resumability. It can serialize a JavaScript app into HTML, thus eliminating the need for the hydration technique used in meta-frameworks like Next.js.
-<br />
-In this talk, Ruby Jane Cabagnot will talk about Qwik and reusability. Then talk about QwikReact, which allows you to use React components in Qwik, including the whole ecosystem of component libraries, such as Material UI, Threejs, and React Spring.
-<br />
- Is Qwik the world's first O(1) JavaScript framework? Let's find out."
-        talk_video_url:
-        speakers:
-          speaker_8: *RubyJaneCabagnot
+          speaker_3: *TejasKumar
 
       HowToTrainYourUseReducerTurningYourStateManagementStrategyIntoANightFury:
         item_type: "talk"
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
+        track: *track_1
+        start_datetime: 2023-10-27T10:20+02:00
+        end_datetime: 2023-10-27T11:00+02:00
         talk_title: "How to train your useReducer: turning your state management strategy into a Night Fury"
         talk_description: "Splitting the view from the controller is foundational to build great applications. <br />
         We tend to rely on external libraries to manage their state. But React itself has a great off-the-shelf state management tool: the useReducer.
-In this talk we’re going to get to know more about it, and especially learn how to enhance it tailoring it to our needs. <br />
-You'll discover what you have been missing."
+        In this talk we’re going to get to know more about it, and especially learn how to enhance it tailoring it to our needs. <br />
+        You'll discover what you have been missing."
         talk_video_url:
         speakers:
           speaker_6: *SilviaFlorio
           speaker_7: *MattiaPispisa
 
+      GatewayToReact:TheReact.devStory:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2023-10-27T11:30+02:00
+        end_datetime: 2023-10-27T12:10+02:00
+        talk_title: "Gateway to React: the react.dev story"
+        talk_description: "The new react.dev launched this year introducing new methodologies like challenges and interactive sandboxes and subtle inclusivity features, like “international tone” and culturally agnostic examples. <br />
+        Not only have the new docs changed how people learn React, they’ve inspired how we think about developer education as a community. <br />
+        In this talk, you will learn how the React team and some ambitious community members made the “React docs rock” for a generation of front end developers and how these new patterns and established techniques can be applied in your favorite projects."
+        talk_video_url:
+        speakers:
+          speaker_10: *RachelNabors
+
       ReactInlineVisualEiting:
         item_type: "talk"
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
+        track: *track_1
+        start_datetime: 2023-10-27T12:10+02:00
+        end_datetime: 2023-10-27T12:50+02:00
         talk_title: "React inline visual editing: now's the time."
         talk_description: "Over the last 25 years we have seen many products and services designed to edit websites in a visual way. <br />
         They were either good for developers or for content editors: never for both.<br />
@@ -265,39 +258,70 @@ You'll discover what you have been missing."
         speakers:
           speaker_5: *MatteoFrana
 
+      Quiz:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2023-10-27T14:10+02:00
+        end_datetime: 2023-10-27T14:40+02:00
+        talk_title: "How Well Do You Know React? let's have fun together!"
+        talk_description: "Curious about your React knowledge?
+        Ready to take on a friendly challenge? <br />
+        In this lively and engaging session, we invite you to participate in an interactive quiz centered around the React ecosystem. <br />
+        Whether you're new to React or a seasoned pro, this quiz is designed to spark curiosity and deepen understanding, all in a collaborative and fun environment. <br />
+        Engage with the speaker, answer questions, and learn more about the subject through technical insights and explanations. "
+        talk_video_url:
+        speakers:
+          speaker_4: *FabioBiondi
+
+      UsingTheReactEcosystemWithTheWorld'sFirstO(1)JavaScriptFramework:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2023-10-27T14:40+02:00
+        end_datetime: 2023-10-27T15:20+02:00
+        talk_title: "Using the React Ecosystem with the World's First O(1) JavaScript Framework"
+        talk_description: "What if you can use the fastest JavaScript framework along with React? What if you can build applications that feel fast regardless of application size? <br />
+        Qwik is a JavaScript framework that uses a new rendering paradigm called resumability. It can serialize a JavaScript app into HTML, thus eliminating the need for the hydration technique used in meta-frameworks like Next.js.
+        <br />
+        In this talk, Ruby Jane Cabagnot will talk about Qwik and reusability. Then talk about QwikReact, which allows you to use React components in Qwik, including the whole ecosystem of component libraries, such as Material UI, Threejs, and React Spring.
+        <br />
+        Is Qwik the world's first O(1) JavaScript framework? Let's find out."
+        talk_video_url:
+        speakers:
+          speaker_8: *RubyJaneCabagnot
+
+      ReactObservability:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2023-10-27T15:20+02:00
+        end_datetime: 2023-10-27T16:00+02:00
+        talk_title: "Observability for React applications"
+        talk_description: "Observability is essential for developing and maintaining reliable and performance React applications. <br /> By the end of this talk, you will have a practical guide on how to make your React applications more observable and resilient using OpenTelemetry."
+        talk_video_url:
+        speakers:
+          speaker_1: *GonzaloBeviglia
+
+      ReactVSTheRest:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2023-10-27T16:30+02:00
+        end_datetime: 2023-10-27T17:10+02:00
+        talk_title: "React vs. The Rest of The Web: Civil War"
+        talk_description: "In this talk, I will explore React through a practical lens, primarily focusing on three crucial aspects: rendering, reactivity, and state management. By building the same application using React and other popular JavaScript frameworks, we'll conduct a comparative analysis. Join me as we dissect React's approach to these core concepts and evaluate how it stacks up against other frameworks. By the end of this session, you'll gain valuable insights into the similarities and differences, allowing you to make informed decisions when choosing a framework for your projects."
+        talk_video_url:
+        speakers:
+          speaker_1: *EdoardoDusi
+
       DoNotBreakGraphQLExtendIt:
         item_type: "talk"
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
+        track: *track_1
+        start_datetime: 2023-10-27T17:10+02:00
+        end_datetime: 2023-10-27T17:50+02:00
         talk_title: "Do not break GraphQL, extend it!"
         talk_description: "GraphQL is powerful technology to retrieve and send complex structures from remote locations with a simple and effective syntax. One of its perks is avoid under-fetching and over-fetching as the client specifically requests the fields it’s interested in.
-<br />
-But what happens if we need to enrich or customize the data set and we can’t modify the upstream GraphQL server? Shall we break the spec?
-<br />
-In this talk I will show you how to use the resources the GraphQL specification already gives us to solve this issue without having to break the rules."
+        <br />
+        But what happens if we need to enrich or customize the data set and we can’t modify the upstream GraphQL server? Shall we break the spec?
+        <br />
+        In this talk I will show you how to use the resources the GraphQL specification already gives us to solve this issue without having to break the rules."
         talk_video_url:
         speakers:
           speaker_9: *PaoloInsogna
-
-
-      GatewayToReact:TheReact.devStory:
-        item_type: "talk"
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Gateway to React: the react.dev story"
-        talk_description: "The new react.dev launched this year introducing new methodologies like challenges and interactive sandboxes and subtle inclusivity features, like “international tone” and culturally agnostic examples. <br />
-        Not only have the new docs changed how people learn React, they’ve inspired how we think about developer education as a community. <br />
-        In this talk, you will learn how the React team and some ambitious community members made the “React docs rock” for a generation of front end developers and how these new patterns and established techniques can be applied in your favorite projects."
-        talk_video_url:
-        speakers:
-          speaker_10: *RachelNabors
-
-      ServerComponentsForTheRestOfUs:
-        item_type: "talk"
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Server Components for the Rest of Us"
-        talk_description: "This talk explores how Server Components work, and why we need new-generation tooling for it."
-        talk_video_url:
-        speakers:
-          speaker_3: *TejasKumar
