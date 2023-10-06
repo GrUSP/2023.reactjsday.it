@@ -66,6 +66,10 @@ silver:
     site_url: "https://www.treatwell.co.uk/"
 bronze:
   sponsor1:
+    name: "Box"
+    logo_filename: "box.svg"
+    site_url: "https://www.box.com/"
+  sponsor2:
     name: "Sticker Mule"
     logo_filename: "stickermule.svg"
     site_url: "https://www.stickermule.com/it/uses/laptop-stickers"
