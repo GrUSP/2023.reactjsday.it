@@ -114,7 +114,7 @@ speaker_10: &RachelNabors
   speaker_in_speaker_lists: true
   speaker_name: Rachel Nabors
   speaker_pic_filename: RachelNabors.png
-  speaker_role: "On sabbatical—formerly React core @ Meta"
+  speaker_role: "Director of Developer Education @ Clerk.com"
   speaker_bio: "Rachel Nabors has worked web standards and opensource with Mozilla, the W3C, Microsoft, and lead the new React and React Native docs at react.dev and reactnative.dev with the core teams at Meta. <br />Their dream is to teach the world to code so others may create a future we can all believe in. <br />
   After leading developer education at AWS Amplify, they are traveling the world, reconnecting with the community and making cool things. "
   speaker_github_url: "https://github.com/rachelnabors"
