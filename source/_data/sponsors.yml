@@ -20,6 +20,10 @@ platinum:
     site_url: "https://www.edreamsodigeo.com/"
 gold:
   sponsor1:
+    name: "clerk"
+    logo_filename: "clerk.svg"
+    site_url: "https://clerk.com/"
+  sponsor2:
     name: "workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
